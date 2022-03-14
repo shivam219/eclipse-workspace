@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>s1</servlet-name>
+		<jsp-file>MainJsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s1</servlet-name>
+		<url-pattern>/jsp1</url-pattern>
+	</servlet-mapping>
+</web-app>  

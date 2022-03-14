@@ -1,0 +1,17 @@
+package swingjava;
+
+import javax.swing.*;
+
+public class swing1 {
+
+	public static void main(String[] args) {
+	
+	int a[]=new int [5];
+	
+		
+		
+		
+		
+	}
+
+}

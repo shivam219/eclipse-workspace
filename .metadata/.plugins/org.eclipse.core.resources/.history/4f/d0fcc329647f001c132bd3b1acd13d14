@@ -1,0 +1,80 @@
+package sorting;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Quick_sort {
+static int[] arr = null;
+	public static void main(String[] args) {
+//			Scanner sc = new Scanner(System.in);
+//			System.out.println("Enter k_th: ");
+//			int n  = sc.nextInt();
+//			int m = n;
+//			arr = new int[n];
+//			int a = 0;
+//			System.out.println("Enter data");
+//			while(n-->0) {
+//				arr[a]= sc.nextInt();
+//				a++;
+//			}
+			arr = new int[] {2,5,3,1,6,21,1};
+			Arrays.stream(arr).forEach(e->System.out.println(e));
+			quickSort(0,arr.length);
+			Arrays.stream(arr).forEach(e->System.out.println(e));
+			
+	}
+	public static void quickSort(int l,int h) {
+		if(l<h) {
+			int pivot = partition(l,h);
+			quickSort(l,pivot-1);
+			quickSort(pivot+1,h);
+		}
+	}
+	public static int partition(int l,int h) {//l==low// h==high
+		int pivot = arr[l];
+		int i=l;
+		int j =h;
+		while(i<j) {
+			while(arr[i]<=pivot)i++;
+			while(arr[j]>pivot)j--;
+			if(i<j) {
+				swap(i,j);
+			}
+			swap(j,l);
+		}
+		return j;
+	}
+	public static void swap( int j, int l) {
+		int temp = arr[j];
+		arr[j]=arr[l];
+		arr[l]=temp;
+	}
+//	public static int partition(int []arr,int l,int h) {
+//		int pivot = arr[l];
+//		int i=l;
+//		int j =h;
+//		while(i<j) {
+//			while(arr[i]<=pivot)i++;
+//			while(arr[j]<=pivot)j--;
+//			if(i<j) {
+//				swap(arr,j,l);
+//			}
+//			swap(arr,j,l);
+//		}
+//		return j;
+//	}
+//	public static int[] quickSort(int arr[],int l,int h) {
+//		if(l<h) {
+//			int pivot = partition(arr,l,h);
+//			quickSort(arr,l,pivot-1);
+//			quickSort(arr,pivot+1,h);
+//		}
+//		return arr;
+//	}
+//	public static int[] swap(int[] arr, int j, int l) {
+//		int temp = arr[j];
+//		arr[j]=arr[l];
+//		arr[l]=temp;
+//		return arr;
+//	}
+}

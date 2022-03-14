@@ -1,0 +1,14 @@
+package OnlinePratical;
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+       
+	
+		String s=new String("java programing example");
+		String s2[]=s.split("a");
+		System.out.println(s2[0]);
+		System.out.println(s2[1]);
+		System.out.println(s2[2]);
+	}
+}

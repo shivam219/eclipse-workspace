@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Gui_core/src/chat-app&apos; to &apos;chatapp&apos;" description="Rename resource &apos;chat-app&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/chat-app" name="chatapp" stamp="1645957435781" updateReferences="true"/>
+</session>

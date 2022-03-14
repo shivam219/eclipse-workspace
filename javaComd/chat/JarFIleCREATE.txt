@@ -1,0 +1,15 @@
+@echo off
+echo Enter the name of the Main class
+set/p "ch=>"
+echo set the name of the jar file
+set/p "name=>"
+
+cd classes
+echo Main-Class :%ch%manifest.txt
+jar -cfm %name.jar manifest.txt*
+echo successfully created 
+
+cd..
+move classes\%name%.jar %name%.jar
+del classes\manifest.txt
+pause

@@ -1,0 +1,7 @@
+
+class ex{
+	public static void main(String[] args)  {
+		doMo();
+		System.out.println("main ");
+	
+}

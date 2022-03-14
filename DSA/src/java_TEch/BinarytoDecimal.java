@@ -1,0 +1,75 @@
+package java_TEch;
+
+import java.util.ArrayList;
+
+public class BinarytoDecimal {
+	public static void main(String[] args) {
+		System.out.println(decimalToBinary(121));
+		System.out.println(binaryToDecimal1(101));
+	}
+
+	public static int decimalToBinary(int cur) {
+		String arr = "";
+		while (cur > 0) {
+			int rem = cur % 2;
+			cur = cur / 2;
+			arr = rem + arr; 
+		}
+		return Integer.parseInt(arr);
+	}
+	public static int binaryToDecimal1(long num) {
+		int dec = 0, i = 0;
+		long rem;
+
+		while (num > 0) {
+			rem = num % 10;
+			num /= 10;
+			dec += rem * Math.pow(2, i);
+			++i;
+		}
+		return dec;
+	}
+
+	public static void convertDecToBin() {
+		StringBuffer s = new StringBuffer();
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		int dec = 7;
+		int cur = dec;
+		while (cur != 0) {
+			int rem = cur % 2;
+			cur = cur / 2;
+			arr.add(rem);
+		}
+
+		System.out.println(arr);
+		int[] ar = arr.stream().mapToInt(i -> i).toArray();
+		swap(ar, 0, ar.length - 1);
+		for (int i : ar) {
+			System.out.print(i + " ");
+		}
+		m1();
+	}
+
+	public static void swap(int[] ar, int i, int j) {
+		if (i == j || i > j)
+			return;
+		int temp = ar[i];
+		ar[i] = ar[j];
+		ar[j] = temp;
+		swap(ar, ++i, --j);
+	}
+
+	static private void m1() {
+		StringBuffer s = new StringBuffer();
+		String arr = "";
+		int dec = 7;
+		int cur = dec;
+
+		while (cur != 0) {
+			int rem = cur % 2;
+			cur = cur / 2;
+			arr += rem;
+		}
+		System.out.println(arr);
+	}
+}

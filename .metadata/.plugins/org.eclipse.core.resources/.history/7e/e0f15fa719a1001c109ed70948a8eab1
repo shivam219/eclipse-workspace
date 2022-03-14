@@ -1,0 +1,29 @@
+package muliti_treding;
+
+import java.util.Iterator;
+
+public class synchronizedi {
+
+}
+
+class aaa {
+	public synchronized void d1(bbb b) {
+		System.out.println("thread 1 start execution of  d1");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			
+		}
+		System.out.println("thread 1 trying to call B's last()");
+		b.last();
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
+class bbb{
+	public synchronized void last() {
+		
+	}
+}
