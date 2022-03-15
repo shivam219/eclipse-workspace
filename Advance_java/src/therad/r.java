@@ -2,22 +2,20 @@ package therad;
 
 public class r {
 	public static void main(String[] args) {
-		t ob = new t() {
+		T11 ob = new T11() {
 			public void m1() {
 				
 				
 			}
 		};
-		t ob1 = ()->{
-			System.out.println("hii");
+		T11 ob1 = () -> {
+			System.out.println("m1 method overriding");
 		};
 		
-		ob1.m1();
-	}
+		}
 }
 
-
 @FunctionalInterface
-interface t {
+interface T11 {
 	public void m1();
 }

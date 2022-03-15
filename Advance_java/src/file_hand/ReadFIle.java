@@ -4,11 +4,6 @@ package file_hand;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-/**
- *
- * @author Trainer
- */
 import java.io.*;
 public class ReadFIle {
     public static void main(String args[]) throws IOException

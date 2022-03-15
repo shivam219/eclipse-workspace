@@ -1,0 +1,19 @@
+package therad;
+
+public class r {
+	public static void main(String[] args) {
+		T ob = new T() {
+			public void m1() {
+				
+				
+			}
+		};
+		t ob1 = 
+			}
+}
+
+
+@FunctionalInterface
+interface T {
+	public void m1();
+}

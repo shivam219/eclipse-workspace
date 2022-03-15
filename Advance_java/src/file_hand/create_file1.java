@@ -10,7 +10,3 @@ public class create_file1 {
 		
 	}
 }
-//front 
-//midlle 
-//database 
-//testing

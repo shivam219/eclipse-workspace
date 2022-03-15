@@ -15,7 +15,7 @@ class A{
 	}
 }
 class B extends A{
-	
+//@FunctionalInterface
 //@Override
 	@SuppressWarnings("unchecked") /// unchecked all warning
 	void show() {

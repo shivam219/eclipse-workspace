@@ -1,7 +1,5 @@
 package new_instance;
-
 import java.lang.reflect.Method;
-
 public class forname {
 	public static void main(String[] args) throws Exception {
 		@SuppressWarnings("unchecked")

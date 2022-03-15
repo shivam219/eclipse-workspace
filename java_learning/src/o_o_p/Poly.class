@@ -1,12 +1,0 @@
-Êþº¾   : <
-      o_o_p/hello <init> ()V    	 
- makeConcatWithConstants '(ILjava/lang/String;)Ljava/lang/String;
-     M1 ()Ljava/lang/Object;	      java/lang/System out Ljava/io/PrintStream;  In Main
-      java/io/PrintStream println (Ljava/lang/String;)V  
-o_o_p/Poly
-  
-  ! " # m1 ()Ljava/lang/String; Code LineNumberTable add (IC)I main ([Ljava/lang/String;)V m2 
-SourceFile 	Poly.java BootstrapMethods /
- 0 1 2 	 3 $java/lang/invoke/StringConcatFactory ˜(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite; 5  InnerClasses 8 %java/lang/invoke/MethodHandles$Lookup : java/lang/invoke/MethodHandles Lookup !            $        *· ±    %         & '  $        `¬    %         & 
-  $         +º   °    %          " #  $   /     *· W² ¶ °    %            	 ( )  $   .     » Y· L+¶  W±    %       $  %  A   *   $         ±    %       E  +    , -     .  4 6   
-  7 9 ; 

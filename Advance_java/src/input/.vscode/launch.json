@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Double_if_block",
+            "request": "launch",
+            "mainClass": "Double_if_block",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dynamic_Method_Dispatch",
+            "request": "launch",
+            "mainClass": "Dynamic_Method_Dispatch",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Intera_multi_ple",
+            "request": "launch",
+            "mainClass": "Intera_multi_ple",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Super_class",
+            "request": "launch",
+            "mainClass": "Super_class",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Inherta",
+            "request": "launch",
+            "mainClass": "Inherta",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - varags",
+            "request": "launch",
+            "mainClass": "varags",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Enhacefo<input_2a8ccd09>",
+            "request": "launch",
+            "mainClass": "Enhacefo",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main_Activate<input_2a8ccd09>",
+            "request": "launch",
+            "mainClass": "Main_Activate",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Scan_input<input_2a8ccd09>",
+            "request": "launch",
+            "mainClass": "Scan_input",
+            "projectName": "input_2a8ccd09"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Upp<input_2a8ccd09>",
+            "request": "launch",
+            "mainClass": "Upp",
+            "projectName": "input_2a8ccd09"
+        }
+    ]
+}

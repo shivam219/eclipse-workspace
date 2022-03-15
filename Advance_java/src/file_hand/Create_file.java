@@ -8,12 +8,6 @@ public class Create_file {
 	 * To change this template file, choose Tools | Templates and open the template
 	 * in the editor.
 	 */
-
-	/**
-	 *
-	 * @author Trainer
-	 */
-
 	public static void main(String args[]) throws IOException {
 		DataInputStream dis = new DataInputStream(System.in);
 		FileOutputStream fout = new FileOutputStream("myfile.text");

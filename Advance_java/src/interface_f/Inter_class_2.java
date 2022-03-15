@@ -1,5 +1,14 @@
 package interface_f;
 
+//interface can contain variable
+//every variable are by 
+//default public
+//static
+//final 
+//why public -- make visible for the other class
+//why static -- without exiting object implementing class can acces this variable
+//why final -- one implemented clas change values then remaining class
+//will be affected . so to restrict we are using final keywords
 //if any interface doesn't contain method know as maker interface
 // jvm going to provide abilitty to marker interface
 // example cloneable , serilizable interface
