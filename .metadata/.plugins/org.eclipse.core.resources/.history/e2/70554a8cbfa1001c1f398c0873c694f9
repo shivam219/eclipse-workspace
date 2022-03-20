@@ -1,7 +1,0 @@
-package map;
-
-public class hashMapi {
-	public static void main(String[] args) {
-		
-	}
-}
