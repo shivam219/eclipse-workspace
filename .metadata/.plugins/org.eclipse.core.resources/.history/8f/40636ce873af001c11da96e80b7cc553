@@ -1,0 +1,21 @@
+package date;
+
+import java.text.ParseException;
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.Date;
+
+public class dataFormate_iso_format {
+	public static void main(String[] args) throws ParseException {
+
+//		LocalDate localDate1 = LocalDate.parse("2019-04-26T20:55:00.000Z");
+//		LocalDate localDate2 = LocalDate.parse("2020-01-08");
+//
+//		// calculate difference
+//		long days = Period.between(localDate1, localDate2).getDays();
+//		System.out.println(days);
+//
+//		Date date11 = new Date();
+//		LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+	}
+}

@@ -1,5 +1,0 @@
-package therad;
-
-public class thread {
-	public static void main(String[] args) {
-		

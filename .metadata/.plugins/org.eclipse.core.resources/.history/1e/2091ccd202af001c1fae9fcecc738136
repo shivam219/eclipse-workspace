@@ -1,0 +1,10 @@
+package graph;
+
+import searching.main;
+
+public class a {
+	public static void main(String[] args) {
+
+	}
+
+}

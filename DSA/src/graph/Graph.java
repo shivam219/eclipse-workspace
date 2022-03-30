@@ -3,8 +3,8 @@ package graph;
 import java.util.*;
 
 public class Graph {
-	private LinkedList<Integer> ad[] = new LinkedList[5];
-//	private LinkedList<Integer> ad[];
+//	private LinkedList<Integer> ad[] = new LinkedList[5];
+	private LinkedList<Integer> ad[];
 
 	public Graph(int v) {
 		ad = new LinkedList[v + 1];
@@ -39,13 +39,13 @@ public class Graph {
 				}
 			}
 		}
-		int cur = dest;
-		System.out.print(cur + " \n");
 		int dis = 0;
 		if (q.isEmpty()) {
 			System.out.println(" no elemet like this");
 			return 0;
 		} else {
+			int cur = dest;
+//			System.out.print(cur + " \n");
 			while (parent[cur] != -1) {
 				System.out.print(cur + " -> ");
 				cur = parent[cur];
@@ -117,10 +117,10 @@ public class Graph {
 			}
 		}
 		int dis = 0;
-		int cur = destination;
 		if (st.isEmpty()) {
 			System.out.println("Element is not present");
 		} else {
+			int cur = destination;
 			System.out.print(cur);
 			while (par[cur] != -1) {
 				System.out.print(" -> " + par[cur]);
@@ -128,15 +128,13 @@ public class Graph {
 				dis++;
 			}
 		}
-		System.out.println("lenth is ");
+		System.out.println("length is ");
 		return dis;
 	}
 
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
-
 		System.out.println("Enter number of vertices and edges");
-
 		int v = sc.nextInt();
 		int e = sc.nextInt();
 

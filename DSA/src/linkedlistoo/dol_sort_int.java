@@ -73,7 +73,7 @@ public class dol_sort_int {
 			return root.data + " " + printLink(root.right);
 	}
 // it for dobly - ended
-	 static link createLink(link head) {
+	 static link createLink(link pre) {
 		int t;
 		link root = null;
 		System.out.println("Enter data ");
@@ -81,10 +81,10 @@ public class dol_sort_int {
 		if (t == -1)
 			return null;
 		root = new link(t);
-		root.left = head;
-		head = root;
+		root.left = pre;
+		pre = root;
 		System.out.println("Enter right");
-		root.right = createLink(head);
+		root.right = createLink(pre);
 		return root;
 	}
 // it for singly- ended

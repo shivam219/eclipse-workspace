@@ -3,6 +3,7 @@ package date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.util.Calendar;
 import java.util.Date;
 
 public class date_formate {
@@ -21,5 +22,9 @@ public class date_formate {
 			System.out.println("Error");
 			e.printStackTrace();
 		}
+		Calendar now = Calendar.getInstance();
+
+		System.out.println(now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE));
+//		System.out.println( (+ * 43 - 25));
 	}
 }
