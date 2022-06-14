@@ -18,13 +18,13 @@ public class Balance_paranthises {
 				stack.push(x);
 				continue;
 			}
-
+//}
 			if (stack.isEmpty())
 				return false;
 			char ck;
 			switch (x) {
 			case ')':
-//				String expr = "([{}])";
+//				String expire = "([{}])";
 				ck = stack.pop();
 				if (ck == '{' || ck == '[')
 					return false;

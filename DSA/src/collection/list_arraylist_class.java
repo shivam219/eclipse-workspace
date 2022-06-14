@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.ListIterator;
 
 public class list_arraylist_class {
 	static int i =0;
@@ -13,6 +14,7 @@ public class list_arraylist_class {
 		arr.add(13);
 		arr.add(14);
 		arr.add(15);
+		ListIterator<Integer> lar = arr.listIterator();
 		System.out.println(arr);
 		int ar[] = new int[arr.size()];
 //		int i = 0;

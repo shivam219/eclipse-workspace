@@ -1,9 +1,5 @@
 INDEX VERSION 1.131
-C:\Users\Shivam\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\520820219.index
-\Servlet_project\src\main\java
-C:\Users\Shivam\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3911992748.index
-\servlet_hidden_for_fill\src\main\java
-C:\Users\Shivam\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\816160396.index
-\Servlet_project\src\main\java
-C:\Users\Shivam\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1069118024.index
-\Servlet_project\src\main\java
+C:\Users\Shivam\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4053173891.index
+\Jsp_connect\src\main\java
+C:\Users\Shivam\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1075662100.index
+\JSPCrud\src

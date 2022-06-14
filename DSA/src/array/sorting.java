@@ -2,6 +2,8 @@ package array;
 
 import java.util.Arrays;
 
+import searching.main;
+
 public class sorting {
 
 	public static void main(String[] args) {
@@ -16,5 +18,24 @@ public class sorting {
 			}
 		}
 	System.out.println(	Arrays.toString(arr));
+	}
+}
+class sortTillK{
+	public static void sort(char[] ch, int k) {
+		int i = 0, r =k;
+		while(i<=r) {
+			char c = ch[i];
+			ch[i] = ch[r];
+			ch[r] =c;
+			i++;
+			r--;
+		}
+	}
+	public static void main(String[] args) {
+		String str = "shivam";
+//		              012345
+		char ch[] = str.toCharArray();
+		sort(ch,3);
+		System.out.println(ch);
 	}
 }

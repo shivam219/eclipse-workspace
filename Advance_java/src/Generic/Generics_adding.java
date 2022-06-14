@@ -18,7 +18,7 @@ public class Generics_adding<T1 extends Number, T2> {
 	}
 }
 
-class run_add {
+class run_add<R> {
 	public static void main(String[] args) {
 //		int a = 10, b = 20;
 //		String aa = "rama", bb = "rama";
@@ -32,9 +32,23 @@ class run_add {
 //		Object ob = new String("kumar");
 //		a(ob);
 	}
-	public static  <R> R a(R r){
+
+	public static <R> R a(R r) {
 //		System.out.println(r.toString() );
 		System.out.println(r.getClass().getName());
 		return r;
+	}
+}
+
+class genINt<T> {
+	T t;
+	@SuppressWarnings("unchecked")
+//	cannot cast primitive data to generic directly
+
+	public static <TT> void main(String[] args) {
+		TT t1 = (TT) "Hello";
+		TT t2 = (TT) Integer.valueOf(10);
+		System.out.println(t1);
+		System.out.println(t2);
 	}
 }

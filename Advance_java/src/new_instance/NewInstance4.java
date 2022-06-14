@@ -23,7 +23,5 @@ public class NewInstance4 {
 		}
 		str = "shiva";
 		System.out.println(str);
-		
-		
 	}
 }

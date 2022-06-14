@@ -47,15 +47,11 @@ public class Student implements Comparable {
 
 	@Override
 	public String toString() {
-		return "[ rollno=" + rollno + ", name=" + studentname + ", age=" + studentage + "]";
+		return "[rollno=" + rollno + ", name=" + studentname + ", age=" + studentage + "]\n";
 	}
 
 	@Override
 	public int compareTo(Object o) {
-		// TODO Auto-generated method stub
-		return 0;
+		return (rollno == ((Student) o).rollno) ? 0 : (rollno > ((Student) o).rollno) ? 1 : -1;
 	}
-
-	
-
 }

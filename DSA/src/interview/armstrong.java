@@ -2,9 +2,10 @@ package interview;
 
 public class armstrong {
 	public static void main(String[] args) {
-		int n = 153 ;
+		int n = 153
+				;
 		System.out.println(arm(n));
-		System.out.println(perfect(6));
+//		System.out.println(perfect(6));
 	}
 
 	public static int arm(int n) {
@@ -17,6 +18,7 @@ public class armstrong {
 		}
 		return total;
 	}
+	
 	public static int perfect(int n) {
 		if(n==0) {return n;}
 		int half = n/2; int total = 0; int i = 1;

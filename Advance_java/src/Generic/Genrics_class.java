@@ -32,3 +32,26 @@ public class Genrics_class {
 
 	}
 }
+//		genClass<Integer>[] o2 = new genClass[2];
+
+class genClass<T> {
+	T t1;
+	public void setT1(T t1) {
+		this.t1 = t1;
+	}
+	public T getT1() {
+		return t1;
+	}
+}
+class Mainn {
+	public static void main(String[] args) {
+		genClass<Integer> ob1 = new genClass<Integer>();
+		ob1.setT1(10);
+		System.out.println(ob1.getT1());
+		genClass<String> ob2 = new genClass<String>();
+		ob2.setT1("hello");
+		System.out.println(ob2.getT1());	
+	}
+}
+
+

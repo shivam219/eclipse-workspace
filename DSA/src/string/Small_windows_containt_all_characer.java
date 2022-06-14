@@ -43,7 +43,7 @@ public class Small_windows_containt_all_characer {
 	}
 
 	public static void main(String[] args) {
-		String small = minwindow("this is test string", "tist");
+		String small = minwindow("this is test string tist", "tist");
 		System.out.println(small);
 
 	}

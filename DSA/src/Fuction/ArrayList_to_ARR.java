@@ -2,6 +2,7 @@ package Fuction;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class ArrayList_to_ARR {
 	public static void main(String[] args) {
@@ -24,5 +25,8 @@ public class ArrayList_to_ARR {
 //		Arrays.stream(a.toArray(arr)).forEach(e -> System.out.print(e + "  "));
 		Arrays.stream(ar).mapToInt(e -> e +10);
 		System.out.println(Arrays.toString(ar));
+//		Collections.copy(al2, ar1);
+		Collections.fill(a,10);
+		System.out.println(a);
 	}
 }
