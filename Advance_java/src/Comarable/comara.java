@@ -17,6 +17,8 @@ public class comara {
 		Collections.sort(al);
 		//defualt is comparable 
 		System.out.println(al);
+		//        Collections.sort(ld, Comparator.comparing(DaySheetDto::getProjectName));
+
 	}
 
 }
