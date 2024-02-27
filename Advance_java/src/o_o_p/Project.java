@@ -1,24 +1,4 @@
 package o_o_p;
-
-
-
-class A {
-	public void m1() {
-		System.out.println("T");
-	}
-
-	int a = 10;
-}
-
-final public class Project extends A {
-
-	public static void main(String[] args) {
-		Project a = new Project();
-		a.m1();
-
-
-	}
-}
 // concept of oops of java
 /*advantage of introducing oop concept in java language so that they inhance power of language
  *security- Encapsulating data field , and provide get setter method to deal with it -so no one directly access to property of class
@@ -101,6 +81,25 @@ final public class Project extends A {
  *  a == 1005 1005=="helo"
 */
 
+
+
+class A {
+	public void m1() {
+		System.out.println("T");
+	}
+
+	int a = 10;
+}
+
+final public class Project extends A {
+
+	public static void main(String[] args) {
+		Project a = new Project();
+		a.m1();
+
+
+	}
+}
 
 
 
