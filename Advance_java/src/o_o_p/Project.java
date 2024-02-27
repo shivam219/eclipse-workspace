@@ -2,6 +2,9 @@ package o_o_p;
 // concept of oops of java
 // what is oops --> oop revolves around the concept of "objects." 
 // an object is a self-contained unit that consists of data (attributes) and functions (methods) that operate on that data. 
+// template for creating objects. It serves as a fundamental building block of object-oriented programming (OOP).
+// A class defines the properties (attributes) and behaviors (methods) that an object will have. Objects are instances of classes,
+// and they represent real-world entities in a program
 /*advantage of introducing oop concept in java language so that they inhance power of language
  *security- Encapsulating data field , and provide get setter method to deal with it -so no one directly access to property of class
  *reusiblity- Inheritance IS-A relationship - program is employer and type 
